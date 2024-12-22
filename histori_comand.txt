@@ -1,0 +1,47 @@
+    1  git config -- user.name "PAPOROTNICK"
+    2  git config --glibal user.email "reker3014@gmail.com"
+    3  git --version
+    4  sudo apt update
+    5  cd /home/a/work
+    6  git init
+    7  git remote add origin://github.com/PAPOROTNICK/Final-test-paper-animal
+    8  git remote add origin https://github.com/PAPOROTNICK/Final-test-paper-animal
+    9  git remote -v
+   10  git remote add origin https://github.com/PAPOROTNICK/Final-test-paper-animal
+   11  git branch
+   12  ls -al ~/.ssh
+   13  ssh-keygen -t 4096 -C "reker3014@gmail.com"
+   14  ssv -v
+   15  sudo apt update 
+   16  sudo apt install openssh-client
+   17  ssh -v
+   18  ssh-keygen -t rsa -b 4096 -C "reker3014@gmail.com"
+   19  eval "$(ssh-agent -s)" ssh-add ~/.ssh/id_rsa
+   20  cat ~/.ssh/id_rsa.pub
+   21  ssh -T git@github.com
+   22  git clone git@github.com:PAPOROTNICK/Final-work-animals.git
+   23  cd /home/a/work/repository
+   24  cd /home/a/work/Final-work-animals
+   25  git status
+   26  echo -e "собака\nкошка\nхомяк" > home_pets.txt
+   27  git comit -m "добавила файлы животных"
+   28  echo -e "лошаль\nверблюд\nосел" > pack_animals.txt
+   29  git comit -m "добавила файлы животных"
+   30  git add home_pets.txt
+   31  git add pack_animals.txt
+   32  git status
+   33  git push origin main
+   34  git branch
+   35  git status
+   36  cat home_pets.txt pack_animals.txt > animals.txt
+   37  cat animals.txt
+   38  git add animals.txt
+   39  git status
+   40  git push
+   41  git commit -m "объеденила животных в один файл"
+   42  git push
+   43  sudo apt install mysql-server
+   44  sudo apt install mysql-client
+   45  sudo apt install nginx
+   46  sudo apt-get remove nginx
+   47  history > histori_comand.txt
